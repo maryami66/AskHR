@@ -1,7 +1,7 @@
 # 🚀 AskHR — Streamlit-Powered HR Policy Chatbot
 
-AskHR is a lightweight **Streamlit** app that demos how Large Language Models (LLMs) can answer employees’ HR-policy questions in seconds.  
-It ships with synthetic policy data, department/level selectors, chat history, and a “Contact Support” button for escalation.
+AskHR is a simple **Streamlit** app that demos how a chatbot can be build with Large Language Models (LLMs) to answer questions in seconds.  
+It works with synthetic policy data, department/level selectors, and chat history.
 
 ---
 
@@ -15,7 +15,7 @@ It ships with synthetic policy data, department/level selectors, chat history, a
 │   ├── app.py               # Streamlit UI + chat logic
 │   └── llm.py               # OpenAIClient class (prompt builder + responder)
 ├── .env                     # Your OpenAI API key lives here
-├── requirements.txt         # Python deps
+├── requirements.txt         # Python dependencies
 └── README.md
 ```
 
@@ -27,10 +27,14 @@ It ships with synthetic policy data, department/level selectors, chat history, a
 
 ```
 class OpenAIClient:
-    def build_prompt(dept, level, user_question) -> list[dict]:
+    def __init__(self, openai_api_key, department, level):
+        self.client = OpenAI(api_key=openai_api_key)
+        self.department = department
+        self.level = level
+    def build_prompt(self, policy_summary, user_question) -> list[dict]:
         """Returns a messages list ready for ChatCompletion.create()."""
 
-    def complete(messages) -> str:
+    def generate_response(self, messages: List) -> str:
         """Calls OpenAI and returns the assistant’s answer."""
 ```
 
