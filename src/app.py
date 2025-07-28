@@ -1,56 +1,79 @@
 import streamlit as st
-import openai
+import os
+import json
+from datetime import datetime
+from pathlib import Path
+from dotenv import load_dotenv
+from llm import OpenAIClient
+from streamlit_feedback import streamlit_feedback
 
-# --- Configuration ---
-openai.api_key = st.secrets.get("OPENAI_API_KEY")  # Set your API key in Streamlit secrets
+parent_dir = Path(__file__).resolve().parent.parent
+# create a .env file in your AskHR and write your OPENAI_API_KEY="--- your key ---"
+load_dotenv(parent_dir / ".env")
+with open("data/policies.json", "r", encoding="utf-8") as f:
+    policies = json.load(f)
 
-# --- Sample HR Policies ---
-policy_data = {
-    "Engineering": "Eligible for remote work (2 days/week). Equipment reimbursement up to €500. Standard hours: 9–17. 30 days annual leave. Overtime applies after 40 hrs/week.",
-    "Sales": "Client-facing roles. Travel reimbursement for meetings with manager approval. Commission-based pay. Limited remote work.",
-    "HR": "Standard hours: 9–17. Handles internal transfers. 30 days annual leave. Parental leave: 6 months for primary caregiver.",
-    "Finance": "Payroll on 25th each month. Tax forms issued in March. Training budget available upon request.",
-    "Marketing": "Eligible for remote work. Travel reimbursement for events. 30 days annual leave. Must follow social media guidelines.",
-    "Customer Support": "Shift-based roles. Weekend work applicable. Sick leave requires a doctor's note. Overtime paid beyond 40 hrs/week."
-}
+departments = list(policies.keys())  # ['Engineering', 'Sales', 'Marketing', 'Finance', 'HR', 'Customer Support']
+levels = ['Junior', 'Senior', 'Team Lead', 'Manager']
 
-# --- Streamlit UI ---
-st.set_page_config(page_title="HR Policy Q&A Bot")
-st.title("💬 HR Policy Assistant")
-st.markdown("Ask your company policy questions and get instant answers.")
+st.set_page_config(page_title="AskHR – HR Policy Q&A Bot", page_icon="💬")
+st.title("💬 AskHR – HR Policy Assistant")
+st.markdown("Ask any question about your company policies on leave, benefits, hybrid work, reimbursements, and more. 🚀")
 
-# Department selection
-department = st.sidebar.selectbox("Select Your Department", list(policy_data.keys()))
+department = st.radio("Please select you department", departments, horizontal=True, key="department")
+level = st.selectbox("Select Your Level", levels)
+policy_summary = policies[department][level]
+openai_api_key = os.getenv("OPENAI_API_KEY")
+openai_client = OpenAIClient(openai_api_key, department, level)
 
-# User question
-user_question = st.text_input("Your HR question:", placeholder="e.g., How many vacation days do I get?")
+with st.sidebar:
+    now = datetime.now()
 
-if st.button("Ask HR Bot") and user_question:
-    with st.spinner("Thinking..."):
-        # Compose prompt
-        system_prompt = f"""
-        You are a helpful HR assistant.
-        Answer the employee's question based on the following HR policy for the {department} department:
+    st.header("🗓️ Today")
+    st.write(f"**Date:** {now:%A, %d %B %Y}")
+    st.write(f"**Time:** {now:%H:%M:%S}")
 
-        """
-        + policy_data[department] + "\n"
+    # support button
+    st.markdown("<hr>", unsafe_allow_html=True)
+    st.markdown("If **AskHR** cannot help, we are always here to support you with your question. Please **contact us**:", unsafe_allow_html=True)
 
-        user_prompt = f"Employee from {department} department asks: '{user_question}'"
+    recipient_email = "support@example.com"
+    subject = "Support Request"
+    body = "Please describe the issue or question you're experiencing:"
+    mailto_link = f"mailto:{recipient_email}?subject={subject}&body={body}"
+    st.link_button(label="✉ Contact Support", url=mailto_link)
+    st.markdown("---")
+    st.caption("Built for internal HR policy demos with with Streamlit · Powered by OpenAI ✨")
 
-        # Call OpenAI
-        response = openai.ChatCompletion.create(
-            model="gpt-4",
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt}
-            ],
-            temperature=0.4,
+
+# --- Question Input ---
+quick_examples = [
+    "How many vacation days do I have?",
+    "Can I work from home on Fridays?",
+    "What is the travel reimbursement limit?",
+]
+
+user_question = st.chat_input("e.g: What are the special leave?")
+
+with st.container():
+    st.markdown("**Quick questions:**")
+    cols = st.columns(len(quick_examples))
+    for idx, q in enumerate(quick_examples):
+        if cols[idx].button(q, key=f"quick_{idx}"):
+            user_question = q
+
+if user_question:
+    st.chat_message("human").write(user_question)
+    st.session_state.messages = openai_client.build_prompt(policy_summary, user_question)
+    print(st.session_state.messages)
+    with st.spinner("Thinking…"):
+        answer = openai_client.generate_response(st.session_state.messages)
+    st.session_state.messages.append({"role": "Assistant", "content": answer})
+    st.chat_message("ai").write(answer)
+
+    streamlit_feedback(
+            feedback_type="thumbs",
+            align="flex-end",
+            key="feedback_given",
+            optional_text_label="Please give feedback to the answer",
         )
-
-        answer = response.choices[0].message.content
-        st.success("Response from HR Bot:")
-        st.write(answer)
-
-# Footer
-st.markdown("---")
-st.markdown("Built for internal HR policy demos with Streamlit and OpenAI ✨")

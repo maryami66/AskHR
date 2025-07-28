@@ -1,0 +1,804 @@
+{
+  "Engineering": {
+    "Junior": {
+      "Leave": {
+        "vacations": "25 working days per calendar year",
+        "sickLeave": "up to 6 weeks at 100 % pay per illness episode (Kranken­geld after)",
+        "parentalLeave": "up to 12 months paid Elternzeit (can extend unpaid to 36 months)",
+        "specialLeave": {
+          "wedding": "2 days",
+          "bereavement": "2–3 days (1st-degree relatives)",
+          "relocation": "1 day inside Germany"
+        }
+      },
+      "benefits": [
+        "JobRad company bike leasing",
+        "Statutory + supplemental accident insurance (Unfallversicherung)",
+        "Monthly €50 meal & shopping vouchers (Sachbezug)",
+        "Subsidised Deutschland-Ticket (€34)",
+        "Basic health screening every 2 years"
+      ],
+      "reimbursements": [
+        "Home-office setup up to €500 once",
+        "Conference ticket + economy travel with manager pre-approval",
+        "Public transport for on-site customer visits"
+      ],
+      "noticePeriod": "4 weeks to the 15th or month-end after probation (2 weeks during 6-month probation)",
+      "conflictOfInterest": [
+        "Must disclose secondary employment (Nebentätigkeit) >10 h/week",
+        "No contribution to competing software products without written consent"
+      ],
+      "training": [
+        "€1 000 annual personal development budget",
+        "Access to LinkedIn Learning and O’Reilly",
+        "1 paid training week (40 h) per year"
+      ]
+    },
+    "Senior": {
+      "Leave": {
+        "vacations": "28 working days",
+        "sickLeave": "6 weeks at full pay, medical certificate from day 3",
+        "parentalLeave": "14 months paid (ElterngeldPlus possible)",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days (1st-degree relatives)",
+          "relocation": "1 day Europe-wide"
+        }
+      },
+      "benefits": [
+        "Company bike or e-scooter leasing",
+        "Private accident & travel insurance",
+        "€70 monthly vouchers",
+        "ESPP + 500 RSUs over 4 years",
+        "Premium health check every 2 years",
+        "Subsidised gym membership (€25/mo)"
+      ],
+      "reimbursements": [
+        "Home-office gear up to €800 every 3 years",
+        "Conference & training travel automatically approved",
+        "Mobile phone bill up to €40/mo"
+      ],
+      "noticePeriod": "3 months to quarter-end (Kündigungsfrist §622 II BGB)",
+      "conflictOfInterest": [
+        "Board seats require COO approval",
+        "Disclosure of open-source projects that overlap company IP"
+      ],
+      "training": [
+        "€2 000 annual budget",
+        "Individual coaching sessions (3 × 90 min)",
+        "Conference attendance (1 international + 1 domestic)"
+      ]
+    },
+    "Team Lead": {
+      "Leave": {
+        "vacations": "30 working days (incl. 2 leadership PTO)",
+        "sickLeave": "6 weeks at full pay",
+        "parentalLeave": "up to 16 months combined for both parents",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days",
+          "childFirstSchoolDay": "1 day"
+        }
+      },
+      "benefits": [
+        "JobRad or car allowance (€400/mo)",
+        "Supplemental health & dental insurance",
+        "€100 monthly vouchers",
+        "1 000 RSUs over 4 years",
+        "Executive health screening yearly",
+        "Coaching budget €2 000"
+      ],
+      "reimbursements": [
+        "Laptop/phone upgrades up to €1 000/2 years",
+        "Team-event budget €2 000/qtr",
+        "Business travel in premium-economy for flights >4 h"
+      ],
+      "noticePeriod": "3 months to month-end",
+      "conflictOfInterest": [
+        "No recruiting of direct reports for side ventures",
+        "Disclosure of investments >1 % in tech companies"
+      ],
+      "training": [
+        "€3 000 annual leadership and tech budget",
+        "Mentor-swap programme (2 days/year)",
+        "Certified Scrum Master training"
+      ]
+    },
+    "Manager": {
+      "Leave": {
+        "vacations": "30 working days + 5 leadership PTO",
+        "sickLeave": "unlimited at 100 % pay for first 6 weeks per illness",
+        "parentalLeave": "18 months with 12 months ElterngeldPlus",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days",
+          "juryDuty": "full paid"
+        }
+      },
+      "benefits": [
+        "Company car (electric) or mobility budget €800/mo",
+        "Private family health & dental insurance",
+        "€150 monthly vouchers or daycare subsidy",
+        "3 000 RSUs over 4 years + annual bonus",
+        "Executive health programme each year",
+        "Professional liability insurance"
+      ],
+      "reimbursements": [
+        "Home-office furnishing up to €1 500 every 3 years",
+        "Business-class travel for flights >4 h",
+        "Professional association fees"
+      ],
+      "noticePeriod": "6 months to quarter-end",
+      "conflictOfInterest": [
+        "Pre-clearance for speaking engagements with honoraria",
+        "No directorships in competitor firms"
+      ],
+      "training": [
+        "€5 000 executive education budget",
+        "One EMBA module reimbursed per year",
+        "10 coaching sessions with external coach"
+      ]
+    }
+  },
+  "Sales": {
+    "Junior": {
+      "Leave": {
+        "vacations": "25 working days per calendar year",
+        "sickLeave": "up to 6 weeks at 100 % salary per illness episode",
+        "parentalLeave": "up to 12 months paid Elterngeld (may extend unpaid to 36 months)",
+        "specialLeave": {
+          "wedding": "2 days",
+          "bereavement": "3 days (first-degree relatives)",
+          "relocation": "1 day within Germany"
+        }
+      },
+      "benefits": [
+        "Statutory + supplemental accident insurance",
+        "Company smartphone with plan",
+        "€50 monthly meal voucher (Sachbezug)",
+        "Subsidised Deutschland-Ticket (€34)",
+        "Sales incentive trips for top performers"
+      ],
+      "reimbursements": [
+        "Client travel (rail/flight - economy) and taxi/Uber up to €60 per day",
+        "Home-office equipment up to €300 one-off",
+        "Mileage allowance €0.30/km for own car"
+      ],
+      "noticePeriod": "4 weeks to the 15th / month-end after 6-month probation",
+      "conflictOfInterest": [
+        "Must declare gifts >€50 from clients",
+        "Secondary employment in competing sales roles prohibited"
+      ],
+      "training": [
+        "€500 annual sales-training budget",
+        "Access to LinkedIn Learning Sales Navigator courses",
+        "Quarterly internal product bootcamp (8 h)"
+      ]
+    },
+    "Senior": {
+      "Leave": {
+        "vacations": "27 working days",
+        "sickLeave": "6 weeks at 100 % salary, medical certificate from day 3",
+        "parentalLeave": "14 months paid (ElterngeldPlus possible)",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days",
+          "childBirth": "1 day"
+        }
+      },
+      "benefits": [
+        "Premium health-insurance top-up",
+        "€70 meal/shopping vouchers",
+        "Company car option or mobility budget €500/mo",
+        "ESPP + 500 RSUs over 4 years",
+        "Gym subsidy €25/mo"
+      ],
+      "reimbursements": [
+        "Client entertainment up to €100 per head",
+        "Travel business class on trips > 4 h",
+        "Mobile-phone bill reimbursed up to €50/mo"
+      ],
+      "noticePeriod": "3 months to quarter-end (§622 II BGB)",
+      "conflictOfInterest": [
+        "Must pre-clear speaker fees at conferences",
+        "No shareholding >1 % in direct competitors"
+      ],
+      "training": [
+        "€1 500 annual budget",
+        "External negotiation master-class (3 days)",
+        "One coaching session per quarter"
+      ]
+    },
+    "Team Lead": {
+      "Leave": {
+        "vacations": "27 working days + 2 personal days",
+        "sickLeave": "6 weeks at 100 % salary",
+        "parentalLeave": "16 months combined with partner",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days",
+          "relocation": "1 day within EU"
+        }
+      },
+      "benefits": [
+        "Company car (mid-class) with fuel card",
+        "Supplemental dental insurance",
+        "€100 vouchers/month",
+        "1 000 RSUs over 4 years + quarterly bonus",
+        "Leadership coaching €2 000/year"
+      ],
+      "reimbursements": [
+        "Client dinners up to €150/head",
+        "Team-event budget €2 000/qtr",
+        "Laptop/phone upgrades up to €1 000 every 2 years"
+      ],
+      "noticePeriod": "3 months to month-end",
+      "conflictOfInterest": [
+        "Cannot poach subordinates to personal ventures",
+        "Investments >€5 000 in competitors require CFO approval"
+      ],
+      "training": [
+        "€3 000 annual leadership & enablement budget",
+        "Agile-leadership certificate (2 days)",
+        "Mentor-swap programme (2 days/yr)"
+      ]
+    },
+    "Manager": {
+      "Leave": {
+        "vacations": "30 working days",
+        "sickLeave": "unlimited at 100 % salary for first 6 weeks per illness",
+        "parentalLeave": "18 months with 12 months ElterngeldPlus",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days",
+          "juryDuty": "fully paid"
+        }
+      },
+      "benefits": [
+        "Executive company car (electric) or €1 000 mobility budget",
+        "Private family health & dental insurance",
+        "€150 vouchers or childcare subsidy",
+        "3 000 RSUs over 4 years + region‐performance bonus",
+        "Annual executive health screening"
+      ],
+      "reimbursements": [
+        "Unlimited client entertainment within policy",
+        "Business-class travel worldwide",
+        "Professional-association fees"
+      ],
+      "noticePeriod": "6 months to quarter-end",
+      "conflictOfInterest": [
+        "Board-seat engagements must be disclosed",
+        "No direct consulting for competitors"
+      ],
+      "training": [
+        "€5 000 executive-education budget",
+        "One EMBA module reimbursed per year",
+        "10 external coaching sessions"
+      ]
+    }
+  },
+  "Marketing": {
+    "Junior": {
+      "Leave": {
+        "vacations": "26 working days",
+        "sickLeave": "6 weeks at 100 % salary",
+        "parentalLeave": "12 months paid Elterngeld",
+        "specialLeave": {
+          "wedding": "2 days",
+          "bereavement": "3 days",
+          "volunteerDay": "1 paid day for social impact"
+        }
+      },
+      "benefits": [
+        "JobRad bike leasing",
+        "Monthly wellness voucher €30",
+        "Basic health + accident insurance",
+        "Subsidised gym membership",
+        "Deutschland-Ticket subsidy (€34)"
+      ],
+      "reimbursements": [
+        "Event travel (economy) & hotel up to €120/night",
+        "Home-office tech €300 per 2 years",
+        "Adobe Creative Cloud licence"
+      ],
+      "noticePeriod": "4 weeks to month-end",
+      "conflictOfInterest": [
+        "Disclosure of personal influencer activities",
+        "No freelance work for direct competitors"
+      ],
+      "training": [
+        "€800 annual training fund",
+        "HubSpot & Google-Ads certifications",
+        "1 creative-conference ticket/year"
+      ]
+    },
+    "Senior": {
+      "Leave": {
+        "vacations": "28 working days",
+        "sickLeave": "6 weeks paid",
+        "parentalLeave": "14 months paid",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days",
+          "childSchoolStart": "1 day"
+        }
+      },
+      "benefits": [
+        "Premium health top-up",
+        "€60 vouchers/month",
+        "Stock-purchase plan 15 % discount",
+        "Subsidised language courses (€200/yr)",
+        "ESPP 300 RSUs"
+      ],
+      "reimbursements": [
+        "Conference tickets up to €2 000",
+        "Tech allowance €600 every 3 years",
+        "Premium-economy rail on >4 h journeys"
+      ],
+      "noticePeriod": "3 months to quarter-end",
+      "conflictOfInterest": [
+        "Agency-board roles require CMO approval",
+        "No paid endorsements without disclosure"
+      ],
+      "training": [
+        "€2 000 annual budget",
+        "Advanced storytelling workshop (2 days)",
+        "Brand-leadership coaching"
+      ]
+    },
+    "Team Lead": {
+      "Leave": {
+        "vacations": "28 working days + 2 personal days",
+        "sickLeave": "6 weeks 100 % pay",
+        "parentalLeave": "16 months combined",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days"
+        }
+      },
+      "benefits": [
+        "Company phone + laptop",
+        "Supplemental dental insurance",
+        "€100 vouchers/month",
+        "1 000 RSUs over 4 years",
+        "Annual health check"
+      ],
+      "reimbursements": [
+        "Tech allowance €1 000 every 2 years",
+        "Team-building budget €1 500/qtr",
+        "Premium-economy flights >5 h"
+      ],
+      "noticePeriod": "3 months to month-end",
+      "conflictOfInterest": [
+        "No side ownership in agencies bidding for company work"
+      ],
+      "training": [
+        "€3 000 leadership- & marketing-budget",
+        "CMO-mentorship programme",
+        "Coach-led presentation-skills sessions"
+      ]
+    },
+    "Manager": {
+      "Leave": {
+        "vacations": "30 working days",
+        "sickLeave": "unlimited (first 6 weeks paid)",
+        "parentalLeave": "18 months ElterngeldPlus",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days"
+        }
+      },
+      "benefits": [
+        "Executive mobility budget €800/mo",
+        "Family health & dental plan",
+        "€150 vouchers or childcare subsidy",
+        "3 000 RSUs + annual bonus",
+        "Executive health programme"
+      ],
+      "reimbursements": [
+        "Unlimited event travel subject to ROI review",
+        "Business-class flights worldwide",
+        "Professional-association fees"
+      ],
+      "noticePeriod": "6 months to quarter-end",
+      "conflictOfInterest": [
+        "Paid speaking engagements require disclosure",
+        "No advisory roles with competing brands"
+      ],
+      "training": [
+        "€5 000 executive-education budget",
+        "Oxford digital-marketing leadership module",
+        "10 coaching sessions annually"
+      ]
+    }
+  },
+  "Finance": {
+    "Junior": {
+      "Leave": {
+        "vacations": "25 working days",
+        "sickLeave": "6 weeks at 100 % salary",
+        "parentalLeave": "12 months paid",
+        "specialLeave": {
+          "examDay": "2 paid days per CPA exam sitting",
+          "wedding": "2 days",
+          "bereavement": "3 days"
+        }
+      },
+      "benefits": [
+        "Basic health + accident insurance",
+        "€500 CPA/ACCA study support",
+        "Meal vouchers €40/mo",
+        "Public-transport subsidy €30/mo"
+      ],
+      "reimbursements": [
+        "Exam fees reimbursed",
+        "Dinner up to €15 when working past 20:00 in closing week",
+        "Home-office equipment €300 every 3 years"
+      ],
+      "noticePeriod": "4 weeks to month-end",
+      "conflictOfInterest": [
+        "Cannot trade company shares during blackout periods",
+        "Must report family holdings >5 % in client companies"
+      ],
+      "training": [
+        "Internal SAP & IFRS courses",
+        "€500 conference budget",
+        "Study leave 5 days/year"
+      ]
+    },
+    "Senior": {
+      "Leave": {
+        "vacations": "27 working days",
+        "sickLeave": "6 weeks full pay",
+        "parentalLeave": "14 months",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days"
+        }
+      },
+      "benefits": [
+        "Premium health plan",
+        "€2 000 certification fund",
+        "Pension match 5 %",
+        "Gym subsidy €25/mo",
+        "ESPP 300 RSUs"
+      ],
+      "reimbursements": [
+        "Professional dues paid",
+        "Home-office €400 every 3 years",
+        "Economy travel, upgrade to premium economy >5 h"
+      ],
+      "noticePeriod": "3 months to quarter-end",
+      "conflictOfInterest": [
+        "Annual insider-trading policy acknowledgement",
+        "External-audit roles require CFO sign-off"
+      ],
+      "training": [
+        "€2 000 annual CPE budget",
+        "Management-accounting workshop (2 days)",
+        "Mentor programme"
+      ]
+    },
+    "Team Lead": {
+      "Leave": {
+        "vacations": "27 working days + 2 personal days",
+        "sickLeave": "6 weeks full pay",
+        "parentalLeave": "16 months combined",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days"
+        }
+      },
+      "benefits": [
+        "Premium health + dental",
+        "€3 500 training budget",
+        "Pension contribution 7 %",
+        "Annual health screening"
+      ],
+      "reimbursements": [
+        "Tech allowance €800 every 2 years",
+        "Team meals €300/qtr",
+        "Business-class rail on >4 h trips"
+      ],
+      "noticePeriod": "3 months to month-end",
+      "conflictOfInterest": [
+        "No financial advice to audit clients",
+        "Cannot approve payments to own relatives"
+      ],
+      "training": [
+        "Leadership-finance course",
+        "€3 500 budget",
+        "CPD hours 40/year"
+      ]
+    },
+    "Manager": {
+      "Leave": {
+        "vacations": "30 working days",
+        "sickLeave": "unlimited (first 6 weeks paid)",
+        "parentalLeave": "18 months",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days"
+        }
+      },
+      "benefits": [
+        "Family health & dental",
+        "€6 000 executive-education budget",
+        "Pension 10 %",
+        "Executive health check yearly",
+        "Stock options 2 000 units"
+      ],
+      "reimbursements": [
+        "Finance-conference travel premium economy",
+        "Business-class flights >6 h",
+        "Professional-association memberships"
+      ],
+      "noticePeriod": "6 months to quarter-end",
+      "conflictOfInterest": [
+        "No personal trading during close periods",
+        "CFO approval required for board seats"
+      ],
+      "training": [
+        "€6 000 budget",
+        "Harvard finance-leadership module",
+        "External coaching 8 sessions"
+      ]
+    }
+  },
+  "HR": {
+    "Junior": {
+      "Leave": {
+        "vacations": "26 working days",
+        "sickLeave": "6 weeks full pay",
+        "parentalLeave": "12 months",
+        "specialLeave": {
+          "wedding": "2 days",
+          "bereavement": "3 days",
+          "examStudy": "1 day per SHRM exam"
+        }
+      },
+      "benefits": [
+        "Basic health insurance",
+        "€500 L&D stipend",
+        "Mental-health stipend €20/mo",
+        "JobRad bike leasing"
+      ],
+      "reimbursements": [
+        "Candidate travel (economy) reimbursed",
+        "Home-office €300 one-off"
+      ],
+      "noticePeriod": "4 weeks",
+      "conflictOfInterest": [
+        "No recruiting for external agencies",
+        "Must disclose close relatives in hiring processes"
+      ],
+      "training": [
+        "LinkedIn Recruiter licence training",
+        "€500 budget",
+        "Internal labour-law workshop"
+      ]
+    },
+    "Senior": {
+      "Leave": {
+        "vacations": "28 working days",
+        "sickLeave": "6 weeks",
+        "parentalLeave": "14 months",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days"
+        }
+      },
+      "benefits": [
+        "Premium health top-up",
+        "€1 500 training budget",
+        "LinkedIn Recruiter Pro licence",
+        "Dental insurance"
+      ],
+      "reimbursements": [
+        "SHRM/DBA fees",
+        "Home-office €400 every 3 years",
+        "Recruitment-event travel"
+      ],
+      "noticePeriod": "3 months",
+      "conflictOfInterest": [
+        "No side head-hunting gigs",
+        "Must declare personal connections with candidates"
+      ],
+      "training": [
+        "€1 500 budget",
+        "Certified-Compensation-Analyst course",
+        "Attendance at Zukunft Personal Europe"
+      ]
+    },
+    "Team Lead": {
+      "Leave": {
+        "vacations": "28 working days + 2 personal days",
+        "sickLeave": "6 weeks",
+        "parentalLeave": "16 months combined",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days"
+        }
+      },
+      "benefits": [
+        "Premium health & dental",
+        "€3 000 training",
+        "5 coaching sessions/year",
+        "Childcare subsidy €150/mo"
+      ],
+      "reimbursements": [
+        "Candidate dinners up to €70/person",
+        "Tech allowance €800 every 2 years"
+      ],
+      "noticePeriod": "3 months",
+      "conflictOfInterest": [
+        "Cannot hire direct relatives",
+        "External speaking fees >€500 require approval"
+      ],
+      "training": [
+        "€3 000 leadership-budget",
+        "GDW labour-law seminar",
+        "Coach-certification path"
+      ]
+    },
+    "Manager": {
+      "Leave": {
+        "vacations": "30 working days",
+        "sickLeave": "unlimited (first 6 weeks paid)",
+        "parentalLeave": "18 months",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days"
+        }
+      },
+      "benefits": [
+        "Family health & dental",
+        "€5 000 executive coaching",
+        "Company car or mobility €800/mo",
+        "Pension 8 %"
+      ],
+      "reimbursements": [
+        "HR-conference travel worldwide",
+        "Business-class flights",
+        "Professional-body fees"
+      ],
+      "noticePeriod": "6 months",
+      "conflictOfInterest": [
+        "Board positions need CEO approval",
+        "No consulting for competitor HR teams"
+      ],
+      "training": [
+        "€5 000 budget",
+        "INSEAD HR-leadership module",
+        "10 coaching sessions"
+      ]
+    }
+  },
+  "Customer Support": {
+    "Junior": {
+      "Leave": {
+        "vacations": "24 working days",
+        "sickLeave": "6 weeks full pay",
+        "parentalLeave": "12 months",
+        "specialLeave": {
+          "wedding": "2 days",
+          "bereavement": "3 days"
+        }
+      },
+      "benefits": [
+        "Basic health insurance",
+        "€300 training budget",
+        "Shift allowance 15 % for nights",
+        "Wellness voucher €20/mo"
+      ],
+      "reimbursements": [
+        "Headset up to €100",
+        "Taxi home after 22:00 shift up to €30"
+      ],
+      "noticePeriod": "2 weeks during probation, 4 weeks thereafter",
+      "conflictOfInterest": [
+        "Cannot handle tickets for relatives' accounts",
+        "No outside tech-support jobs"
+      ],
+      "training": [
+        "Onboarding boot-camp (2 weeks)",
+        "€300 annual skills budget",
+        "German customer-care certification"
+      ]
+    },
+    "Senior": {
+      "Leave": {
+        "vacations": "26 working days",
+        "sickLeave": "6 weeks",
+        "parentalLeave": "14 months",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days"
+        }
+      },
+      "benefits": [
+        "Premium health addition",
+        "€1 000 training budget",
+        "Wellness €25/mo",
+        "Shift-bid priority"
+      ],
+      "reimbursements": [
+        "Tech allowance €200 every 2 years",
+        "Public-transport night surcharge"
+      ],
+      "noticePeriod": "4 weeks",
+      "conflictOfInterest": [
+        "Cannot self-approve refunds",
+        "No moonlighting with competitor call centres"
+      ],
+      "training": [
+        "€1 000 budget",
+        "Advanced de-escalation workshop",
+        "Mentor junior agents"
+      ]
+    },
+    "Team Lead": {
+      "Leave": {
+        "vacations": "26 working days + 2 personal days",
+        "sickLeave": "6 weeks",
+        "parentalLeave": "16 months combined",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days"
+        }
+      },
+      "benefits": [
+        "Premium health",
+        "€2 000 training",
+        "Team bonus based on CSAT",
+        "Childcare subsidy €100/mo"
+      ],
+      "reimbursements": [
+        "Team outing €1 000/qtr",
+        "Tech allowance €400 every 2 years"
+      ],
+      "noticePeriod": "3 months",
+      "conflictOfInterest": [
+        "Cannot manage schedules for relatives",
+        "Disclosure of side business"
+      ],
+      "training": [
+        "€2 000 leadership-training budget",
+        "Work-study coaching programme",
+        "Lean-management course"
+      ]
+    },
+    "Manager": {
+      "Leave": {
+        "vacations": "28 working days",
+        "sickLeave": "unlimited (first 6 weeks paid)",
+        "parentalLeave": "18 months",
+        "specialLeave": {
+          "wedding": "3 days",
+          "bereavement": "5 days"
+        }
+      },
+      "benefits": [
+        "Family health plan",
+        "€4 000 training budget",
+        "Bonus on overall CSAT/ASA",
+        "Company-car option"
+      ],
+      "reimbursements": [
+        "Customer-visit travel",
+        "Business-class rail >6 h"
+      ],
+      "noticePeriod": "6 months",
+      "conflictOfInterest": [
+        "No consulting for competitor BPOs",
+        "Must reassign tickets from own relatives"
+      ],
+      "training": [
+        "€4 000 budget",
+        "Six-Sigma Green Belt",
+        "External leadership coaching"
+      ]
+    }
+  }
+}
